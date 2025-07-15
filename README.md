@@ -5,6 +5,8 @@
 
 ---
 
+live demo : https://movie-explorer-app-omega.vercel.app/
+
 ## ✨ Features
 
 - **User Authentication** (Email/Password via Firebase)
@@ -52,13 +54,13 @@ $ npm install
 ### Firebase Setup
 
 1. Go to the [Firebase Console](https://console.firebase.google.com/)
-2. Create a new project (or use the provided `movieapp-3c30b`)
+2. Create a new project 
 3. Enable **Email/Password** authentication:
    - Go to **Authentication > Sign-in method**
    - Click on **Email/Password** and enable it
    - Save changes
 
-> The project is pre-configured for `movieapp-3c30b`. If you use your own Firebase project, update `lib/firebase.ts` with your credentials.
+> The project is pre-configured. If you use your own Firebase project, update `lib/firebase.ts` with your credentials.
 
 ### Running the App
 
