@@ -66,8 +66,7 @@ $ npm install
 
 ```bash
 # Development
-$ pnpm dev
-# or
+
 $ npm run dev
 
 # Production
